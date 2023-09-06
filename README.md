@@ -6,14 +6,14 @@ By leveraging JavaScript methods known as filter() and reduce() on big datasets 
 
 So imagine you're a software developer making a contacts app that describes them as serialised objects. Let's call this contacts data 'accounts' and assign a unique ID to every object.
 
-# Running the code
+## Running the code
 
 Please refer to the code in this repository to see an example demo of this implementation.
 Clone the repo and ensure you have the current version of NodeJS installed.
 Next run the command in a Mac OS termimal or Linux shell like so:
 `node index.js`
 
-# Some final thoughts on scnearios and potential use cases
+## Some final thoughts on scenarios and potential use cases
 
 Let's say we wish to filter customers accounts by people that match the first few letters. This is a feature often used in contacts apps developed by the big tech giants. Let's also say in a Marketing scenario where we've been asked to generate pie charts or graphs for the next client presentation, and we need to find the total ages of those filtered contacts. We can run the Array.map() method on the subsequent filtered customer array to get a new array of numbers representing those ages and then run Array.reduce() on that to provide the sum of all those customer ages.
 
